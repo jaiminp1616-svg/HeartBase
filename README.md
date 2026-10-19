@@ -1,46 +1,80 @@
-# HeartBase
+# ❤️ HeartBase — Heart Disease Prediction
 
 ## About the Project
-HeartBase is a project designed to [briefly explain the main purpose of your project].
+
+HeartBase is a machine learning web application that predicts the likelihood of heart disease based on user-provided health-related input features. It provides a simple interface for entering data and viewing the model's prediction.
+
+This project was developed to practice machine learning, Python, and web application deployment.
 
 ## Features
-- Easy-to-use interface
-- [Add your main feature]
-- [Add another feature]
+
+- Easy-to-use web interface built with Streamlit
+- Accepts user-provided input features
+- Generates predictions using a trained machine learning model
+- Deployed online using Streamlit Community Cloud
 
 ## Technologies Used
-- [Frontend technology]
-- [Backend technology]
-- [Database or Firebase, if used]
+
+- **Programming Language:** Python
+- **Web Framework:** Streamlit
+- **Data Processing:** Pandas, NumPy
+- **Machine Learning:** Scikit-learn
+- **Model Loading:** Joblib
+
+## Live Demo
+
+[Open HeartBase](YOUR_STREAMLIT_APP_URL)
 
 ## Installation and Setup
 
-1. Clone the repository:
+### 1. Clone the repository
 
-   ```bash
-   git clone https://github.com/jaiminp1616-svg/HeartBase.git
-   ```
+```bash
+git clone https://github.com/jaiminp1616-svg/HeartBase.git
+```
 
-2. Navigate to the project folder:
+### 2. Navigate to the project folder
 
-   ```bash
-   cd HeartBase
-   ```
+```bash
+cd HeartBase
+```
 
-3. Install the required dependencies according to your project technology.
+### 3. Install dependencies
 
-4. Configure any required environment variables using a local `.env` file, if applicable. Never commit secrets or private credentials.
+```bash
+pip install -r requirements.txt
+```
 
-5. Run the project using the appropriate command for your technology.
+### 4. Run the application
+
+```bash
+streamlit run app.py
+```
+
+Open the local URL displayed in your terminal to use the application.
 
 ## Project Structure
 
-Add a brief description of the important folders and files in your project.
+```text
+HeartBase/
+├── app.py
+├── requirements.txt
+└── model.pkl
+```
+
+*Note: Update the structure above if your actual filenames or folders are different.*
 
 ## Usage
 
-Explain how to start the application and how users can use its main features.
+1. Open the application.
+2. Enter the required input values.
+3. Click the prediction button.
+4. View the model's output.
+
+**Disclaimer:** This application is for educational purposes only and is not a substitute for professional medical advice or diagnosis.
 
 ## Author
 
-GitHub: [jaiminp1616-svg](https://github.com/jaiminp1616-svg)
+**Jaimin Patel**
+
+- GitHub: [jaiminp1616-svg](https://github.com/jaiminp1616-svg)
